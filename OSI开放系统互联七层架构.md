@@ -4,7 +4,7 @@
 
 要找出7个层次所对应的各协议，恐怕会话层和表示层的协议难找到啊。。
 
-       【1】物理层：主要定义物理设备标准，如网线的接口类型、光纤的接口类型、各种传输介质的传输速率等。它的主要作用是传输比特流（就是由1、0转化为电流强弱来进行传输,到达目的地后在转化为1、0，也就是我们常说的数模转换与模数转换），这一层的数据叫做比特。
+   【1】物理层：主要定义物理设备标准，如网线的接口类型、光纤的接口类型、各种传输介质的传输速率等。它的主要作用是传输比特流（就是由1、0转化为电流强弱来进行传输,到达目的地后在转化为1、0，也就是我们常说的数模转换与模数转换），这一层的数据叫做比特。
 
 　　【2】数据链路层：定义了如何让格式化数据以进行传输，以及如何让控制对物理介质的访问，这一层通常还提供错误检测和纠正，以确保数据的可靠传输。
 
@@ -22,36 +22,33 @@
 
  
 
-应用层
+## 应用层
 DHCP · DNS · FTP · Gopher ·GTP · HTTP · IMAP4 · IRC · NNTP · NTP · POP3 · RPC · RTCP · RTP ·RTSP · SIP · SMTP ·SNMP · SSH · SDP · SOAP .STUN. SSDP · TELNET · XMPP
 
-表示层
+## 表示层
 HTTP/HTML · FTP · Telnet · ASN.1（具有表示层功能）
 
-会话层
+## 会话层
 ADSP ·ASP ·H.245·ISO-SP ·iSNS ·NetBIOS ·PAP ·RPC·
 
 RTCP ·SMPP ·SCP ·SSH ·ZIP ·SDP（具有会话层功能）
 
-传输层 
+## 传输层 
 TCP · UDP · TLS · DCCP · SCTP ·RSVP · PPTP
 
-网络层
+## 网络层
 IP (IPv4 · IPv6) · ICMP · ICMPv6 · IGMP ·IS-IS · IPsec · BGP · RIP · OSPF ·ARP · RARP
 
-数据链路层 
+## 数据链路层 
 Wi-Fi(IEEE 802.11) · WiMAX(IEEE 802.16) ·ATM · DTM · 令牌环 · 以太网路 ·
 
 FDDI · 帧中继 · GPRS · EVDO · HSPA · HDLC · PPP · L2TP · ISDN ·STP
 
-物理层
+## 物理层
 以太网路卡 · 调制解调器 · 电力线通信(PLC) · SONET/SDH（光同步数字传输网） · 
 
 G.709（光传输网络） · 光导纤维 · 同轴电缆 · 双绞线
-
- 
-
-应用层
+## 应用层
 
 　　· DHCP(动态主机分配协议)
 　　· DNS (域名解析）
@@ -81,7 +78,7 @@ G.709（光传输网络） · 光导纤维 · 同轴电缆 · 双绞线
 　　· GTP 通用数据传输平台
 　　· STUN （Simple Traversal of UDP over NATs，NAT 的UDP简单穿越）是一种网络协议
 　　· NTP （Network Time Protocol）网络校时协议
-传输层
+## 传输层
 　　·TCP（Transmission Control Protocol）传输控制协议
 　　· UDP (User Datagram Protocol）用户数据报协议
 　　· DCCP （Datagram Congestion Control Protocol）数据报拥塞控制协议
@@ -89,7 +86,7 @@ G.709（光传输网络） · 光导纤维 · 同轴电缆 · 双绞线
 　　· RTP(Real-time Transport Protocol或简写RTP）实时传送协议
 　　· RSVP （Resource ReSer Vation Protocol）资源预留协议
 　　· PPTP ( Point to Point Tunneling Protocol）点对点隧道协议
-网络层
+## 网络层
 IP(IPv4 · IPv6) Internet Protocol（网络之间互连的协议）
 ARP : Address Resolution Protocol即地址解析协议，实现通过IP地址得知其物理地址。
 RARP :Reverse Address Resolution Protocol 反向地址转换协议允许局域网的物理机器从网关服务器的 ARP 表或者缓存上请求其 IP 地址。
@@ -101,7 +98,7 @@ OSPF : (Open Shortest Path First开放式最短路径优先).
 BGP :（Border Gateway Protocol ）边界网关协议，用来连接Internet上独立系统的路由选择协议
 IS-IS:（Intermediate System to Intermediate System Routing Protocol）中间系统到中间系统的路由选择协议.
 IPsec:“Internet 协议安全性”是一种开放标准的框架结构，通过使用加密的安全服务以确保在 Internet 协议 (IP) 网络上进行保密而安全的通讯。
-数据链路层
+## 数据链路层
 　　802.11 · 802.16 · Wi-Fi · WiMAX · ATM · DTM · 令牌环 · 以太网 · FDDI · 帧中继 · GPRS · EVDO · HSPA · HDLC · PPP · L2TP · ISDN
-物理层
+## 物理层
 　　以太网物理层 · 调制解调器 · PLC · SONET/SDH · G.709 · 光导纤维 · 同轴电缆 · 双绞线
